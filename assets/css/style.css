@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Kalam:400,300);
+
+body {
+    background: white
+}
+
+section {
+    background: #e2e2e2;
+    color: #000000;
+    border-radius: 2em;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:600px;
+    max-width:650px;
+    font-size:160%;
+}
+
+.fortune {
+}
+
+.quote {
+    font-family: 'Kalam', cursive;
+}
+
+.author {
+    font-size: smaller;
+}
