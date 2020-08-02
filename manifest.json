@@ -3,7 +3,12 @@
   "name" : "fortune",
   "short_name": "fortune",
   "description": "insightful quote every time you open a new tab.",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
+  "applications": {
+  "gecko": {
+    "id": "senthil@uthcode.com"
+    }
+  },
   "permissions": [
     "tabs",
     "webNavigation",
@@ -17,7 +22,7 @@
     "128": "assets/img/icon128.png"
   },
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-  "homepage_url": "http://www.xtoinfinity.com/posts/fortune.html",
+  "homepage_url": "https://github.com/orsenthil/fortune-browser-extension",
   "chrome_url_overrides": {
     "newtab": "fortune.html"
   },
