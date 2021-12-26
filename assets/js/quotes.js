@@ -5,12 +5,15 @@ var getRandomFortune = function () {
     var defaultAuthor = "C.S.Lewis";
 
     var getQuote = function() {
-        var quotes = $("#quotes").html();
-        var template = Handlebars.compile(quotes);
+        /* var quotes = $("#quotes").html(); */
+        /* var template = Handlebars.compile(quotes); */
+        var template = Handlebars.templates.quotes;
 
         $.get(quotesUrl, function(response) {
             if (response) {
-                $(fortuneDiv).append(template(response));
+                var q = Handlebars.escapeExpression(response.quote);
+                var a = Handlebars.escapeExpression(response.author);
+                $(fortuneDiv).append(template({quote: q, author: a}));
             }
         }).fail(function(_) {
             $(fortuneDiv).append(template({quote:defaultQuote, author:defaultAuthor}))
