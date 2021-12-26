@@ -1,13 +1,8 @@
 # fortune-browser-extension
 
-A minimalist extension that displays a new and an insightful quote.
+A minimalist extension that displays a new and an insightful quote when you open a new tab.
 
-The term <pre>fortune</pre> is from [fortune cookie](https://en.wikipedia.org/wiki/Fortune_cookie) in chinese restaurants, wherein a small paper containing
-some interesting message is wrapped inside a cookie. 
-
-Additionally, a popular Unix Program by name [fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) displays a random quote in the command.
-
-This browser extension for firefox and chrome, similarly, displays a random and an insightful quote.
+This is available for Google Chrome and Mozilla Firefox.
 
 * Get the [Google Chrome Extension](https://chrome.google.com/webstore/detail/fortune/kmcoofcbagjmlfbkoopfohngcnfnaakb)
 * Get the [Mozilla Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/fortune-browser-extension/)
