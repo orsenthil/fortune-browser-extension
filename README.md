@@ -19,7 +19,7 @@ The client side is handled by javascript libraries, Handlebars and Jquery. Handl
 The jquery does the DOM manipulation and and inserts the quote in the extension webpage.
 
 The quotes were curated by me when I came across those thoughts in books and elsewhere.
-Reading good quotes will reinforce the content in our mind and it will help us motivation and mental health.
+Reading good quotes will reinforce the content in our mind and it will help us with motivation and healthy thinking.
 
 Here are few example quotes that I like to share.
 
