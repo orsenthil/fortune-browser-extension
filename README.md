@@ -45,3 +45,7 @@ Enjoy using this.
 # Screenshot
 
 ![screenshot](https://i.imgur.com/qLlqW7t.png)
+
+# Video Demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3S8b3eROxUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
