@@ -3,8 +3,8 @@
   "name": "fortune",
   "short_name": "fortune",
   "description": "insightful quote every time you open a new tab.",
-  "version": "0.5.0",
-  "applications": {
+  "version": "0.7.0",
+  "browser_specific_settings": {
     "gecko": {
       "id": "senthil@uthcode.com"
     }
