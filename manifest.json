@@ -1,32 +1,35 @@
 {
-  "manifest_version" : 2,
-  "name" : "fortune",
+  "manifest_version": 3,
+  "name": "fortune",
   "short_name": "fortune",
   "description": "insightful quote every time you open a new tab.",
-  "version" : "0.5.0",
+  "version": "0.5.0",
   "applications": {
-  "gecko": {
-    "id": "senthil@uthcode.com"
+    "gecko": {
+      "id": "senthil@uthcode.com"
     }
   },
   "permissions": [
-    "tabs",
-    "webNavigation",
+    "tabs"
+  ],
+  "host_permissions": [
     "*://quotes-1271.appspot.com/*",
     "http://quotes-1271.appspot.com/json",
     "https://fonts.googleapis.com/*"
   ],
   "icons": {
-    "16" :  "assets/img/icon16.png",
-    "48" : "assets/img/icon48.png",
+    "16": "assets/img/icon16.png",
+    "48": "assets/img/icon48.png",
     "128": "assets/img/icon128.png"
   },
-  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
   "homepage_url": "https://github.com/orsenthil/fortune-browser-extension",
   "chrome_url_overrides": {
     "newtab": "fortune.html"
   },
-  "browser_action": {
+  "action": {
     "default_title": "",
     "default_icon": "assets/img/icon256.png"
   }
