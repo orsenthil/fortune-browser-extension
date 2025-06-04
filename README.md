@@ -1,10 +1,8 @@
 # fortune
 
-_We were on the point of abandoning our work when the book of Mouillard fell into our hands, and we continued with the results you know._ - _Wilbur Wright, American Inventor/Aviator (1867-1921)_
+_"And this is aviation; I give it to the world."_  - _Louis Mouillard, French Inventor/Aeronaut (1834-1897)_
 
-_And this is aviation; I give it to the world._  - _Louis Mouillard, French Inventor/Aeronaut (1834-1897)_
-
-_I have see far because, I was standing on the shoulders of the giants._  - _Isaac Newton (1643-1727)_
+_"We were on the point of abandoning our work when the book of Mouillard fell into our hands, and we continued with the results you know."_ - _Wilbur Wright, American Inventor/Aviator (1867-1921)_
 
 ---- 
 
