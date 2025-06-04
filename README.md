@@ -6,23 +6,21 @@ _"We were on the point of abandoning our work when the book of Mouillard fell in
 
 ---- 
 
-A minimalist extension that displays a new and an insightful quote when you open
-a new tab. This is available for Google Chrome and Mozilla Firefox.  This
-browser extension is named after popular Unix Program
-[fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)) displays a quote in the
-command line.
-
-I used to use fortune command and found the quotes funny and interesting. Over
-years, we have started using browser more than command line. The browser with
-tabs is a modern shell of programming. I wanted a fortune program for the
-browser.  I developed this using Python code hosted in Google App Engine, and
-the client side is written using Javascript as a browser addon. In the backend
-there is a database where I keep the quote and author in a table. There is API
-call that returns the quote and the author in the JSON format. To call the API
-visit http://quotes-1271.appspot.com/json . This is an unauthenticated API as it
-read-only GET call, and cannot change the state of the system.
+A minimalist extension that displays a new quote when you open a new browser
+tab. This browser extension is named after popular Unix Program
+[fortune](https://en.wikipedia.org/wiki/Fortune_(Unix)).  I used to use fortune
+command a lot, and found the quotes funny and interesting. Over years, we have
+started using browser more than command line. The browser with tabs is a modern
+new shell interface of the computer. I wanted a fortune program for the browser.
 
 ## Technical Details
+
+I developed this using Python code hosted in Google App Engine, and the client
+side is written using Javascript as a browser addon. In the backend there is a
+database where I keep the quote and author in a table. There is API call that
+returns the quote and the author in the JSON format. To call the API visit
+http://quotes-1271.appspot.com/json . This is an unauthenticated API as it
+read-only GET call, and cannot change the state of the system.
 
 The client side is handled by javascript libraries, Handlebars and Jquery.
 Handlebars creates a template to insert the quote.  The jquery does the DOM
