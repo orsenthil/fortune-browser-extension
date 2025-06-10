@@ -30,7 +30,7 @@ Enjoy using this.
 
 ## Get the extension directly from the webstore.
 
-[![Google Chrome Extension](assets/promotional/chrome-web-store.png)](https://chrome.google.com/webstore/detail/fortune/kmcoofcbagjmlfbkoopfohngcnfnaakb)
+[![Google Chrome Extension](assets/promotional/chrome-web-store.png)](https://chromewebstore.google.com/detail/fortune/kmcoofcbagjmlfbkoopfohngcnfnaakb)
 
 [![Firefox Addons](assets/promotional/firefox-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/fortune-browser-extension/)
 
