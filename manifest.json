@@ -3,15 +3,12 @@
   "name": "fortune",
   "short_name": "fortune",
   "description": "insightful quote every time you open a new tab.",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "browser_specific_settings": {
     "gecko": {
       "id": "senthil@uthcode.com"
     }
   },
-  "permissions": [
-    "tabs"
-  ],
   "host_permissions": [
     "*://quotes-1271.appspot.com/*",
     "http://quotes-1271.appspot.com/json",
